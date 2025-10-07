@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Project Title
 ### - Hangman Game-
 
@@ -18,3 +19,7 @@
 ### image: https://www.codingnepalweb.com/build-hangman-game-html-javascript/
 
 
+=======
+# Hangman-Game-
+Hangman is a word guessing game where you try to find the hidden word by guessing letters before running out of attempts.
+>>>>>>> f452ae9f16ee2d0ce2f04e92a6019db2f3402281
