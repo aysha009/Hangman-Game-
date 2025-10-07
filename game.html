@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="stylegame.css" />
+    <script src="script.js" type="module" defer></script>
+  </head>
+  <body>
+    <h1>Hangman Game 💀</h1>
+    <div>
+      <div id="lose">
+        <h2>Game Over!</h2>
+        <b><u class="word"></u></b><br /><br />
+        <a href="index.html">Return Home </a>
+      </div>
+    </div>
+    <div class="game-container">
+      <div class="left-panel">
+        <div class="guessCount">
+          ❌ Wrong Guesses: <span id="wrong-count">0</span> / 6
+        </div>
+
+        <div id="word-display">_ _ _ _ _</div>
+
+        <div id="hint">Hint: <br /></div>
+      </div>
+
+      <div class="right-panel">
+        <img id="hangman-img" src="img/0.PNG" alt="Hangman" />
+      </div>
+    </div>
+
+    <div class="letters-container">
+      <button class="letter" id="a">a</button>
+      <button class="letter" id="b">b</button>
+      <button class="letter" id="c">c</button>
+      <button class="letter" id="d">d</button>
+      <button class="letter" id="e">e</button>
+      <button class="letter" id="f">f</button>
+      <button class="letter" id="g">g</button>
+      <button class="letter" id="h">h</button>
+      <button class="letter" id="i">i</button>
+      <button class="letter" id="j">j</button>
+      <button class="letter" id="k">k</button>
+      <button class="letter" id="l">l</button>
+      <button class="letter" id="m">m</button>
+      <button class="letter" id="n">n</button>
+      <button class="letter" id="o">o</button>
+      <button class="letter" id="p">p</button>
+      <button class="letter" id="q">q</button>
+      <button class="letter" id="r">r</button>
+      <button class="letter" id="s">s</button>
+      <button class="letter" id="t">t</button>
+      <button class="letter" id="u">u</button>
+      <button class="letter" id="v">v</button>
+      <button class="letter" id="w">w</button>
+      <button class="letter" id="x">x</button>
+      <button class="letter" id="y">y</button>
+      <button class="letter" id="z">z</button>
+    </div>
+  </body>
+</html>
+<!--
+
+/* -First the player see the blank spaces for each letter and guess the secret word.Each turn the Player guesses one letter.If the letter is in the word, write it in the right place.If the letter is not in the word, draw one part of the hangman.Keep guessing letters and there is a hint for players to help them guessing the word.If the word is guessed before the man is finished player wins.If the man is killed before guessing the word player loses. */ -->
