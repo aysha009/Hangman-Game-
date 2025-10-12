@@ -12,8 +12,8 @@
 #### 4-add an img folder inside the project to store hangman images
 
 # Screenshots
-![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMJdGQwfbWP4LDSsen4p-M969m-3pnv9j6_g&s)
+![alt text](image-1.png)
+![alt text](image.png)
 
 # Credits
-### image: https://www.codingnepalweb.com/build-hangman-game-html-javascript/
-
+### image: https://hangbrook-game.surge.sh
